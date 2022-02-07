@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 
 [RequireComponent(typeof(AudioSource))]
-public class Security : MonoBehaviour
+public class Signaling : MonoBehaviour
 {
     [SerializeField] private float _duration = 3f;
     [SerializeField] private UnityEvent _penetrated;
