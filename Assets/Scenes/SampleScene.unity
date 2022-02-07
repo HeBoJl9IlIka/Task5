@@ -469,8 +469,8 @@ GameObject:
   m_Component:
   - component: {fileID: 731223423}
   - component: {fileID: 731223422}
-  - component: {fileID: 731223425}
   - component: {fileID: 731223424}
+  - component: {fileID: 731223425}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -623,9 +623,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 731223421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 153fd6d40b67ce3458d6d186edf168be, type: 3}
+  m_Script: {fileID: 11500000, guid: 17b06ff9c5dccc642abce3edf5b6b195, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _duration: 3
   _penetrated:
     m_PersistentCalls:
       m_Calls:
@@ -641,7 +642,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  _left:
+  _escaped:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 731223424}
